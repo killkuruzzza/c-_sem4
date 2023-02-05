@@ -3,19 +3,26 @@
 Console.Clear();
 Console.Write("Введите число: ");
 int s = int.Parse(Console.ReadLine());
-Console.WriteLine($"Количество цифр = {a(s)}");
+Console.WriteLine($"Количество цифр = {CountNumbers(s)}");
 
 
-int a(int number)
+int CountNumbers(int n) //123
 {
-    int count = 0;
-    while(number>0)
+    int count = 0; // count 0
+    if (n < 0)
+        n *= (-1); // n = n * (-1) 
+    while (n > 0) // 0 > 0
     {
-        count++;
-        number/=10;
+        count++; // count 3
+        n /= 10; // n = n / 10    n = 0
     }
     return count;
 }
+// |-123| = 123
+// |123| = 123
+//28 Напишите программу, которая принимает на вход число N 
+//и выдаёт произведение чисел от 1 до N.
 
-
+//4-> 24
+//5-> 120
 
