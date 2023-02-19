@@ -17,7 +17,7 @@ int[] GetBinArray(int size){
     return result;
 }
 /*
-**Задача 1:**Напишите функцию, который принимает на вход два числа (A и B)
+**Задача 1:**Напишите функцию, которая принимает на вход два числа (A и B)
  и возводит число A в натуральную степень B.
 
 3, 5 -> 243 (3⁵)
@@ -61,9 +61,9 @@ int[] GetBinArray(int size){
 Выходные данные
 В выходной файл OUTPUT.TXT выведите минимальное количество монет,
  которые нужно перевернуть.*/
-int n = int.Parse(Console.ReadLine());
-int[] mas = new int[n];
-for (int i = 0; i < n;i ++){
-    int j = int.Parse(Console.ReadLine());
-    mas[i] = j;
-}
+// int n = int.Parse(Console.ReadLine());
+// int[] mas = new int[n];
+// for (int i = 0; i < n;i ++){
+//     int j = int.Parse(Console.ReadLine());
+//     mas[i] = j;
+// }
